@@ -1,0 +1,25 @@
+{
+  "name": "luke",
+  "version": "0.0.1",
+  "description": "A javascript code generator.",
+  "main": "src/luke.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-concat": "~0.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ruipgil/lukejs.git"
+  },
+  "keywords": [
+    "code",
+    "generator"
+  ],
+  "author": "Rui Gil",
+  "license": "MIT",
+  "gitHead": "7f478a152c8e3e4a7d579ab1967575fae4e3f096",
+  "bugs": {
+    "url": "https://github.com/ruipgil/lukejs/issues"
+  }
+}

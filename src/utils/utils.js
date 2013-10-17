@@ -1,15 +1,15 @@
-luc.utils = {};
+luke.utils = {};
 
-luc.utils.ccFormat = function(arr) {
+luke.utils.ccFormat = function(arr) {
 	return arr.map(function(value, index) {
 		if (index > 0) {
-			return luc.utils.capitalizeString(value);
+			return luke.utils.capitalize(value);
 		} else {
 			return value;
 		}
 	}).join("");
 };
 
-luc.utils.capitalizeString = function(str) {
+luke.utils.capitalize = function(str) {
 	return str.charAt(0).toUpperCase() + str.slice(1);
 };

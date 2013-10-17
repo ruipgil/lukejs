@@ -7,7 +7,28 @@ module.exports = function(grunt) {
 				footer: '\n})();'
 			},
 			dist: {
-				src: ["src/utils/polyfill.js", "src/utils/utils.js", "src/luke.js", "src/**.js"],
+				src: [
+					"utils/polyfill",
+					"luke",
+					"utils/utils",
+					"Buffer",
+					"Composite",
+					"IClass",
+					"InstClass",
+					"IFunction",
+					"AnonymousFunction",
+					"Function",
+					"IConstructor",
+					"Property",
+					"ClassProperty",
+					"Method",
+					"Constructor",
+					"OptionalConstructor",
+					"Getter",
+					"Setter"
+				].map(function(file){
+					return "src/"+file+".js";
+				}),
 				dest: "build/luke.js"
 			}
 		}
